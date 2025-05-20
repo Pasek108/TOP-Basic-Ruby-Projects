@@ -152,49 +152,48 @@ Programs:
 
 ## User interface
 
-### Caesar cipher 
-Program encodes and decodes two hardcoded strings to check if it works correctly.
-![caesar cipher](/_for_readme/UI/caesar_cipher.png)
+### Caesar Cipher
+The program encodes and decodes two hardcoded strings to verify correctness.  
+![Caesar Cipher](/_for_readme/UI/caesar_cipher.png)
 
 ---
 
-### Sub Strings 
-Program displays hardcoded dictionary and for this dictionary it prints counted substrings of two hardcoded strings. 
-![sub strings](/_for_readme/UI/sub_strings.png)
+### Substrings
+The program uses a hardcoded dictionary and prints the counted substrings found in two hardcoded strings.  
+![Substrings](/_for_readme/UI/sub_strings.png)
 
 ---
 
-### Stock picker
-Program prints hardcoded stock prices and the best days to buy and sell with the total profit. 
-![stock picker](/_for_readme/UI/stock_picker.png)
+### Stock Picker
+The program prints hardcoded stock prices and calculates the best days to buy and sell for maximum profit.  
+![Stock Picker](/_for_readme/UI/stock_picker.png)
 
 ---
 
-### Bubble sort
-Program shows hardcoded initial array and then its sorted version. 
-![bubble sort](/_for_readme/UI/bubble_sort.png)
+### Bubble Sort
+The program displays a hardcoded array and its sorted version using the bubble sort algorithm.  
+![Bubble Sort](/_for_readme/UI/bubble_sort.png)
 
 ---
 
 ### Recursion
-Program prints results of `fibs(n)` and `fibs_rec(n)` for n from 0 to 8. Then the program displays two hardcoded arrays and its sorted versions sorted using merg sort 
-![recursion](/_for_readme/UI/recursion.png)
+The program shows the results of `fibs(n)` and `fibs_rec(n)` for `n` from 0 to 8. It also sorts two hardcoded arrays using merge sort and prints the results.  
+![Recursion](/_for_readme/UI/recursion.png)
 
 ---
 
-### Linked lists 
-Program uses hardcoded values to create linked list and prints each test of its methods ensuring the list works properly. 
-
-![linked lists](/_for_readme/UI/linked_list.png)
+### Linked Lists
+The program creates a linked list using hardcoded values and tests all implemented methods to ensure proper functionality.  
+![Linked Lists](/_for_readme/UI/linked_list.png)
 
 ---
 
-### HashMap 
-Program uses hardcoded values to create hash map and prints each test of its methods ensuring the list works properly.  
-![hashmap](/_for_readme/UI/hashmap.png)
+### HashMap
+The program uses hardcoded key-value pairs to create a hash map and tests each method to verify correct behavior.  
+![HashMap](/_for_readme/UI/hashmap.png)
 
 ---
 
 ### Binary Search Trees
-Program uses array of random values to create BST and prints each test of its methods ensuring the list works properly.  
-![binary search trees](/_for_readme/UI/binary_search_trees.png)
+The program generates a binary search tree from a randomly generated array, tests all tree methods, and verifies balance and rebalancing operations.  
+![Binary Search Trees](/_for_readme/UI/binary_search_trees.png)
