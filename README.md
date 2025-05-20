@@ -89,32 +89,32 @@ Programs:
 - Linked Lists:
   - ✅ Create a `Node` class with `value` and `next_node` (default to `nil`)  
   - ✅ Create a `LinkedList` class to manage the list of nodes
-    - ✅ `append(value)` – add node to the end  
-    - ✅ `prepend(value)` – add node to the start  
-    - ✅ `size` – return number of nodes  
-    - ✅ `head` – return first node  
-    - ✅ `tail` – return last node  
-    - ✅ `at(index)` – return node at given index  
-    - ✅ `pop` – remove last node  
-    - ✅ `contains?(value)` – return `true` if value is in the list  
-    - ✅ `find(value)` – return index of value or `nil`  
-    - ✅ `to_s` – return string representation: `( val ) -> ( val ) -> nil`  
+    - `append(value)` – add node to the end  
+    - `prepend(value)` – add node to the start  
+    - `size` – return number of nodes  
+    - `head` – return first node  
+    - `tail` – return last node  
+    - `at(index)` – return node at given index  
+    - `pop` – remove last node  
+    - `contains?(value)` – return `true` if value is in the list  
+    - `find(value)` – return index of value or `nil`  
+    - `to_s` – return string representation: `( val ) -> ( val ) -> nil`  
   - **Extra credit**  
     - ✅ `insert_at(value, index)` – insert node at given index  
     - ✅ `remove_at(index)` – remove node at given index  
 - HashMap:
   - ✅ Create a `HashMap` class with `load_factor` and `capacity`
-    - ✅ Resize (rehash) when load factor is exceeded
-    - ✅ `hash(key)` - generate a hash code for string keys  
-    - ✅ `set(key, value)` – add/update key-value pair and handle collisions    
-    - ✅ `get(key)` – return value for a key, or `nil` if not found  
-    - ✅ `has?(key)` – return `true` if key exists  
-    - ✅ `remove(key)` – delete key and return its value, or `nil`  
-    - ✅ `length` – return number of stored keys  
-    - ✅ `clear` – remove all entries  
-    - ✅ `keys` – return array of keys  
-    - ✅ `values` – return array of values  
-    - ✅ `entries` – return array of `[key, value]` pairs 
+    - Resize (rehash) when load factor is exceeded
+    - `hash(key)` - generate a hash code for string keys  
+    - `set(key, value)` – add/update key-value pair and handle collisions    
+    - `get(key)` – return value for a key, or `nil` if not found  
+    - `has?(key)` – return `true` if key exists  
+    - `remove(key)` – delete key and return its value, or `nil`  
+    - `length` – return number of stored keys  
+    - `clear` – remove all entries  
+    - `keys` – return array of keys  
+    - `values` – return array of values  
+    - `entries` – return array of `[key, value]` pairs 
   - **Extra credit**  
     - ✅ Implement `HashSet` class – same as `HashMap`, but only stores keys (no values)
 - Binary Search Trees:
