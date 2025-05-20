@@ -64,24 +64,22 @@ Programs:
 ## Features
 ### Project requirements
 - Caesar Cipher:
-  - ✅ Accept a string and a shift value as input  
-  - ✅ Apply a Caesar cipher with a right shift  
+  - ✅ Implement `caesar_cipher(text, shift)` to return the modified string using a right shift
   - ✅ Maintain original letter casing (uppercase/lowercase)  
   - ✅ Preserve non-alphabetic characters (e.g., punctuation, spaces)  
   - ✅ Wrap from Z to A correctly
 - Sub Strings:
-  - ✅ Accept a string and an array of dictionary words as input  
-  - ✅ Return a hash with matching substrings (case-insensitive) and their counts  
+  - ✅ Implement `substrings(text, dictionary)` to return a hash with matching substrings and their counts
+  - ✅ Each substring is case-insensitive  
   - ✅ Support multiple-word input strings  
   - ✅ Ignore punctuation and match substrings within words  
 - Stock Picker:
-  - ✅ Accept an array of stock prices (each element represents a day)  
-  - ✅ Return the best pair of days to buy and sell for maximum profit  
+  - ✅ Implement `stock_picker(stock_prices)` to return the best days to buy and sell for maximum profit
   - ✅ Ensure the buy day comes before the sell day  
   - ✅ Handle edge cases like lowest price on the last day or highest on the first 
 - Bubble Sort:
-  - ✅ Accept an array of numbers as input  
-  - ✅ Return a sorted array using the bubble sort algorithm (no built-in sort)  
+  - ✅ Implement `bubble_sort(array)` to return a sorted array 
+  - ✅ Avoid using built-in sort methods; use the bubble sort algorithm
 - Recursion:
   - ✅ Implement `fibs(n)` to generate the first `n` Fibonacci numbers using iteration  
   - ✅ Implement `fibs_rec(n)` to generate the first `n` Fibonacci numbers using recursion  
@@ -187,7 +185,7 @@ Program prints results of `fibs(n)` and `fibs_rec(n)` for n from 0 to 8. Then th
 ### Linked lists 
 Program uses hardcoded values to create linked list and prints each test of its methods ensuring the list works properly. 
 
-![linked lists](/_for_readme/UI/linked_lists.png)
+![linked lists](/_for_readme/UI/linked_list.png)
 
 ---
 
